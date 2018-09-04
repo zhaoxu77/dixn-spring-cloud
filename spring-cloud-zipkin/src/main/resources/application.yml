@@ -1,3 +1,11 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+    instance-id: spring-cloud-zipkin
+
 server:
   port: 9411
 
@@ -8,11 +16,6 @@ spring:
     admin:
       client:
         url: http://localhost:8084
-
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
 
 management:
   metrics:
