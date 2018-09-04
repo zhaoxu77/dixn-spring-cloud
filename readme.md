@@ -8,6 +8,11 @@ http://localhost:8765/processFeign
 http://localhost:8765/hystrix
 
 4.zuul
+
 http://localhost:8769/api-a/processRibbon
 
 http://localhost:8769/api-b/processFeign
+
+5.zikpin
+
+http://localhost:9411/zipkin/
