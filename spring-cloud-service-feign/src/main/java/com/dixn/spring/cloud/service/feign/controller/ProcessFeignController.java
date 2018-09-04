@@ -1,4 +1,4 @@
-package com.dixn.spring.cloud.service.feign;
+package com.dixn.spring.cloud.service.feign.controller;
 
 import com.dixn.spring.cloud.service.feign.service.ProcessFeignService;
 import org.springframework.beans.factory.annotation.Autowired;
