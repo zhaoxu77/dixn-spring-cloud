@@ -6,3 +6,8 @@ http://localhost:8765/processFeign
 
 3.熔断dashboard
 http://localhost:8765/hystrix
+
+4.zuul
+http://localhost:8769/api-a/processRibbon
+
+http://localhost:8769/api-b/processFeign
