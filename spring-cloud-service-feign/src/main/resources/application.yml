@@ -5,5 +5,3 @@ spring:
       profile: dev
       uri: http://localhost:8888/
       name: web-admin-feign
-
-

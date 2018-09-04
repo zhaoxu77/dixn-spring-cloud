@@ -4,6 +4,10 @@ server:
 spring:
   application:
     name: spring-cloud-zipkin
+  boot:
+    admin:
+      client:
+        url: http://localhost:8084
 
 eureka:
   client:
