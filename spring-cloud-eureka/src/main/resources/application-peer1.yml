@@ -1,0 +1,20 @@
+spring:
+  profiles: peer1
+  application:
+    name: spring-cloud-eurka-peer
+  zipkin:
+    base-url: http://localhost:9411
+    boot:
+      admin:
+        client:
+          url: http://localhost:8084
+
+server:
+  port: 8761
+
+eureka:
+  instance:
+    hostname: peer1
+  client:
+    serviceUrl:
+      defaultZone: http://peer2:8767/eureka/,http://peer2:8768/eureka/
