@@ -22,5 +22,5 @@ management:
   endpoints:
     web:
       exposure:
-        include: "*"
+        include: heath, info
 
