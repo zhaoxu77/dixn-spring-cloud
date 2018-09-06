@@ -19,3 +19,12 @@ spring:
     admin:
       client:
         url: http://localhost:8084
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: "*"

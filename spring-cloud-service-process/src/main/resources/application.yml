@@ -17,3 +17,12 @@ eureka:
   #instance:
     #prefer-ip-address: true
     #instance-id: service-prcess62
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: "*"

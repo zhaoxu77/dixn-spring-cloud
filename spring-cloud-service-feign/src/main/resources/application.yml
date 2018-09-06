@@ -5,3 +5,12 @@ spring:
       profile: dev
       uri: http://localhost:8888/
       name: cloud-feign
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: "*"
