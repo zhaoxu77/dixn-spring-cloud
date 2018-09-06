@@ -4,4 +4,4 @@ spring:
       label: master
       profile: dev
       uri: http://localhost:8888/
-      name: web-admin-feign
+      name: cloud-feign
