@@ -20,10 +20,10 @@ spring:
         git:
           #uri: https://github.com/zhaoxu77/spring-cloud-config-file/
           uri: https://github.com/zhaoxu77/dixn-spring-cloud/
-          search-paths: /spring-cloud-config/respo
+          search-paths: spring-cloud-config
           username: zhaoxu841020@163.com
           password: zhaoxu625102
-          #basedir: target/config
+          basedir: target/config
   zipkin:
     base-url: http://localhost:9411
   boot:
