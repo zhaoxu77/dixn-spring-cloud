@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dixn.spring.cloud.service.admin.mapper.JUserBasesMapper">
+  <resultMap id="BaseResultMap" type="com.dixn.spring.cloud.service.admin.domain.JUserBases">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="VARCHAR" property="id" />
+    <result column="NIKENAME" jdbcType="VARCHAR" property="nikename" />
+    <result column="USERNAME" jdbcType="VARCHAR" property="username" />
+    <result column="USERPWD" jdbcType="VARCHAR" property="userpwd" />
+    <result column="PASSWORD" jdbcType="VARCHAR" property="password" />
+    <result column="LASTLOGINTIME" jdbcType="TIMESTAMP" property="lastlogintime" />
+    <result column="PASSWDERRORCOUNT" jdbcType="INTEGER" property="passwderrorcount" />
+    <result column="CREATE_USER" jdbcType="VARCHAR" property="createUser" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="UPDATE_USER" jdbcType="VARCHAR" property="updateUser" />
+    <result column="UPDATE_TIME" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="VALID_FLAG" jdbcType="VARCHAR" property="validFlag" />
+  </resultMap>
+</mapper>

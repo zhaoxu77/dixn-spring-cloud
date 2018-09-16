@@ -33,7 +33,6 @@
         <dependency>
             <groupId>io.zipkin.java</groupId>
             <artifactId>zipkin</artifactId>
-            <version>2.10.1</version>
         </dependency>
         <dependency>
             <groupId>io.zipkin.java</groupId>
@@ -44,12 +43,10 @@
                     <artifactId>spring-boot-starter-log4j2</artifactId>
                 </exclusion>
             </exclusions>
-            <version>2.10.1</version>
         </dependency>
         <dependency>
             <groupId>io.zipkin.java</groupId>
             <artifactId>zipkin-autoconfigure-ui</artifactId>
-            <version>2.10.1</version>
         </dependency>
 
         <dependency>
